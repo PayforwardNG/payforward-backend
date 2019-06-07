@@ -1,0 +1,147 @@
+.pay-border {
+    border: 0.5px solid #4A4CCA;
+}
+.pay-font {
+    font-size: 50px;
+}
+.pay-pad {
+  padding-bottom: 30px;
+}
+.paypoint-top {
+    margin-top: 150px;
+}
+
+.pay-top {
+    margin-top: 68px;
+}
+
+.pay-bottom {
+  margin-bottom: 68px;
+}
+
+.pay-p-top {
+    height: 250px;
+    z-index: -3;
+}
+
+.pay-reg {
+  margin-top: 40px;
+}
+
+
+.pay-top-minus {
+    margin-top: -25px;
+    background-color: #F0F2F5;
+    
+}
+
+.ptm-content {
+    margin-top: 15px;
+}
+
+.pay-n-color {
+    color: #180066;
+}
+
+.pay-white {
+    color: #fff;
+
+}
+
+.pay-white-bg {
+  background-color: #fff;
+}
+.pay-white-bg-a {
+    color: black;
+}
+.check {
+  color: #8B8B8D;
+}
+
+.gutters-tiny a:hover {
+    margin-top: -5px;
+}
+
+.bg-color {
+    background-color: #4A4CCA;
+  }
+
+  .bg-color1 {
+    background-color: black;
+  }
+  
+  .pay-color {
+    color: #4A4CCA;
+  }
+
+  .paypoint-move-up {
+      margin-top: -120px;
+      z-index: 3;
+  }
+
+
+  /* Range bar */
+  /* QuickReset */
+*{margin:0;box-sizing:border-box;}html,body{height:100%;font:14px/1.4 sans-serif;}
+
+/* CUSTOM RANGE INPUT */
+.range-div {
+  position: relative;
+}
+
+.range {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: linear-gradient(to right, #1299E6, #A0D9F9);
+  width: 100%;
+  height: 1px;
+  outline: none;
+}
+
+.range:active::-webkit-slider-thumb {
+  box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.4);
+}
+
+.range::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 30px;
+  width: 100px;
+  background: #1299E6;
+  border-radius: 50%;
+  cursor: grab;
+}
+
+.range-thumb {
+  position: absolute;
+  left: 0px;
+  /* half :thumb width */
+  top: 0;
+  width: 100px;
+  /* same as :thumb */
+  height: 30px;
+  /* same as :thumb */
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-size: 12px;
+  pointer-events: none;
+  /* ignore mouse */
+}
+
+.range-thumb::before {
+  content: attr(data-val) " ";
+}
+  
+.pay-test {
+  background-color: #F4F7FA;
+  /* background-color: red; */
+}
+.content-side ul> li:hover {
+  background-color: #F4F7FA;
+}
+/* .content-side li a {
+  color: black;
+} */
